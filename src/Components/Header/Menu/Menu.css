@@ -1,0 +1,21 @@
+.menu-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6047ec;
+    color: white;
+}
+
+
+nav ul{
+list-style-type: none;
+display:flex;
+
+}
+a{
+padding: 8px 10px;
+font-weight: 600;
+cursor: pointer;
+text-decoration: none;
+color: white;
+}

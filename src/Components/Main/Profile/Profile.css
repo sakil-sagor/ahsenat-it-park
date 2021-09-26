@@ -1,0 +1,37 @@
+.profile{
+    box-shadow: 0px 0px 15px -5px #6047ec;
+    padding: 20px;
+    border-radius: 10px;
+}
+.profile:hover{
+    box-shadow: 0px 0px 30px -10px #6047ec;
+}
+.profile-img{
+    width: 250px;
+    margin: auto;
+    
+}
+.profile-img img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.rating{
+    color: rgba(128, 128, 128, 0.712);
+}
+.star-icon{
+    color: goldenrod;
+}
+
+button{
+   background:#6047ec;
+   padding:8px 20px;
+   color: white;
+   font-size: 17px;
+   border: none;
+   cursor: pointer;
+   border-radius: 7px;
+}
+button:hover{
+    background:#311ca8;
+}

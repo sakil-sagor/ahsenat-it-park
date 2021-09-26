@@ -1,0 +1,27 @@
+.header-bottom{
+    background-color: #6047ec;
+    color: white;
+}
+.category ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 0;
+    margin: 0;
+
+}
+.category li{
+    border: 1px solid rgba(114, 5, 5, 0.356);
+    padding: 8px;
+
+}
+
+.category a{
+    color: #6047ec;
+    padding: 8px;
+    color: white;
+
+}
+.header-content{
+    padding: 30px;
+}

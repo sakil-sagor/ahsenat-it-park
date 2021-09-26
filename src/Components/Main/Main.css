@@ -1,0 +1,16 @@
+
+.main-area{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-top: 50px;
+    grid-gap: 20px;
+}
+
+.all-profile{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.cart-area{
+    
+}
