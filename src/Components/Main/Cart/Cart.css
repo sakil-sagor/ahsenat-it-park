@@ -1,9 +1,25 @@
 .cart{
-
-
     background:#6047ec;
     border-radius: 10px;
     color: white;
     padding: 10px;
-   
+}
+.cart-name-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 0;
+
+}
+.order-btn{
+    background-color: goldenrod;
+    margin-top: 25px;
+}
+.order-btn:hover{
+    background-color: rgb(189, 144, 31);
+}
+.cost-area{
+    background-color: rgb(12, 152, 187);
+    padding: 1px 0 10px 0;
+    border-radius: 10px;
 }

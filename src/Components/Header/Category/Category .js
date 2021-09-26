@@ -4,7 +4,7 @@ import './Category.css'
 const Category = () => {
     return (
         <div className="header-bottom">
-
+            {/* header category area  */}
             <div className="category">
                 <ul>
                     <li><a href="">JAVASCRIPT</a></li>
@@ -18,6 +18,7 @@ const Category = () => {
                     <li><a href="">JAVA</a></li>
                 </ul>
             </div>
+            {/* header summary area  */}
             <div className="header-content">
                 <h2>Make your Team or Hire your Favourite Developer.</h2>
                 <h3>Total Hired : $150 million</h3>

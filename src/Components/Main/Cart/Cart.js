@@ -3,39 +3,36 @@ import './Cart.css'
 import Name from './Name/Name';
 
 const Cart = (props) => {
+    // data Destructuring for data props  
     const { cart } = props;
-    console.log(cart);
 
+    // makign data unique 
     let duplicate = [...new Set(cart)];
-    console.log(duplicate);
 
-    // let result = [];
-    // let addedProfile = cart.map(sameItem => {
-    //     if (result.indexOf(sameItem.name) == -1) {
-    //         result.push(sameItem.name)
-    //     }
-    // })
-
+    // make unique data for cart 
     let total = 0;
     let nameResult = [];
+    let nameImg = [];
     for (let price of duplicate) {
         total = total + price.salary;
         nameResult.push(price.name);
+        nameImg.push(price.img);
     }
-
-
-
-
-
     return (
         <div className="cart">
-            <h3>Total Hired : {duplicate.length}</h3>
-            <div>
-                {
-                    nameResult.map(singleName => <Name key={singleName} singleName={singleName}></Name>)
-                }
+            <h3>Developer Hired : {duplicate.length}</h3>
+            <hr />
+            <div className="cart-name-img">
+                <div>
+                    {
+                        nameResult.map(singleName => <Name key={singleName} singleName={singleName}></Name>)
+                    }
+                </div>
             </div>
-            <h3>Total Cost: {total}</h3>
+            <div className="cost-area">
+                <h3>Total Cost: ${total}</h3>
+                <button className="order-btn">Make Order</button>
+            </div>
 
 
         </div>

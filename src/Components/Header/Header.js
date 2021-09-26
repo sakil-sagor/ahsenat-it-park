@@ -7,7 +7,9 @@ const Header = () => {
     return (
         <div className="header">
             <div className="container">
+                {/* header logo and menu area  */}
                 <Menu></Menu>
+                {/* header category and summery area  */}
                 <Category></Category>
             </div>
         </div>

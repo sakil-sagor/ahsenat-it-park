@@ -1,8 +1,14 @@
 .cart-name{
+    display: flex;
     font-size: 20px;
 }
 .name-icon{
     margin-left: 10px;
     color:red;
     font-size: 25px;
+}
+.cart-name p{
+margin: 10px 0;
+
+
 }
