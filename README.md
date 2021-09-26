@@ -12,8 +12,9 @@ AhsenaT It-Park is a Programmers Ground where you will find the Best,Experienced
 ## Features
 
 - Live previews 
-- Fullscreen mode
-- Cross platform
+- Make conversition 
+- Hire single or multiple developers
+- Previes with rating
 - All projects preview
 - Direct hire
 - Click the Button to Know The Rate
